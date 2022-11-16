@@ -1,0 +1,116 @@
+@media (max-width: 1400px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1240px) {
+    html {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 1160px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 1080px) {
+    html {
+        font-size: 13px;
+    }
+
+    .cover {
+        width: 30vw;
+        height: 45.6vw;
+    }
+
+    .pen {
+        width: 6vw;
+    }
+}
+
+@media (max-width: 1000px) {
+    html {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 750px) {
+    html {
+        font-size: 13px;
+    }
+
+    .cover {
+        width: 45vw;
+        height: 68.4vw;
+    }
+
+    .pen {
+        width: 9vw;
+    }
+
+    main.guestbook {
+        background-size: auto 100%, auto 100%, 40% auto;
+    }
+
+    .pager {
+        width: 50vw;
+        height: 100%;
+        z-index: 1;
+        position: fixed;
+    }
+
+    .paper {
+        width: 80vw;
+        position: relative;
+    }
+
+    .paper .delete {
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+    html {
+        font-size: 12px;
+    }
+
+    .cover {
+        width: 60vw;
+        height: 91.2vw;
+    }
+
+    .pen {
+        width: 12vw;
+    }
+
+    main.guestbook {
+        background-size: auto 100%, auto 100%, 50% auto;
+    }
+}
+
+@media (max-width: 470px) {
+    html {
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 340px) {
+    html {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 310px) {
+    html {
+        font-size: 9px;
+    }
+}
+
+@media (max-width: 270px) {
+    html {
+        font-size: 8px;
+    }
+}
